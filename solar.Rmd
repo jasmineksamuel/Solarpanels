@@ -7,8 +7,8 @@ output:
     keep_md: true
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+```{r global_options}
+knitr::opts_chunk$set(fig.path='Figs/')
 ```
 ### We are going to be looking at solar plant energy data. We will rely heavily on EDA for this analysis
 ### We have data from two plants with the same metrics being measured 
