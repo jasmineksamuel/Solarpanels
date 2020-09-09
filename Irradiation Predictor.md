@@ -2,9 +2,9 @@
 title: "Solar Power Plant EDA & Irradiation Predictor"
 author: "Jasmine Samuel"
 date: "9/3/2020"
-output:
-  html_document: default
-  pdf_document: default
+output:  
+  html_document:
+    keep_md: true
 ---
 
 ```{r setup, include=FALSE}
